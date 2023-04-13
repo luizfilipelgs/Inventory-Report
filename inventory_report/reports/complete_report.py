@@ -15,4 +15,3 @@ class CompleteReport(SimpleReport):
             report += f'- {company}: {quantity}\n'
 
         return SimpleReport.generate(data) + report
-
